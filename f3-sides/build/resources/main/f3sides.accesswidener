@@ -1,0 +1,19 @@
+classTweaker v1 official
+
+inject-interface net/minecraft/client/gui/screens/debug/DebugOptionsScreen dev/droc101/f3Sides/client/DebugScreenEntryListInterface
+inject-interface net/minecraft/client/gui/components/DebugScreenOverlay$1 dev/droc101/f3Sides/client/DebugScreenDisplayerInterface
+
+accessible class net/minecraft/client/gui/screens/debug/DebugOptionsScreen$OptionEntry
+accessible field net/minecraft/client/gui/screens/debug/DebugOptionsScreen$OptionEntry children Ljava/util/List;
+accessible field net/minecraft/client/gui/screens/debug/DebugOptionsScreen$OptionEntry name Ljava/lang/String;
+accessible method net/minecraft/client/gui/screens/debug/DebugOptionsScreen$OptionEntry narrateButton (Lnet/minecraft/client/gui/components/CycleButton;)Lnet/minecraft/network/chat/MutableComponent;
+accessible method net/minecraft/client/gui/screens/debug/DebugOptionsScreen$OptionEntry setValue (Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/gui/components/debug/DebugScreenEntryStatus;)V
+accessible field net/minecraft/client/gui/screens/debug/DebugOptionsScreen$OptionEntry location Lnet/minecraft/resources/Identifier;
+accessible field net/minecraft/client/gui/screens/debug/DebugOptionsScreen$OptionEntry always Lnet/minecraft/client/gui/components/CycleButton;
+accessible field net/minecraft/client/gui/screens/debug/DebugOptionsScreen$OptionEntry never Lnet/minecraft/client/gui/components/CycleButton;
+accessible field net/minecraft/client/gui/screens/debug/DebugOptionsScreen$OptionEntry overlay Lnet/minecraft/client/gui/components/CycleButton;
+
+accessible method net/minecraft/client/gui/components/debug/DebugScreenEntryList resetToProfile (Lnet/minecraft/client/gui/components/debug/DebugScreenProfile;)V
+accessible method net/minecraft/client/gui/components/debug/DebugScreenEntryList resetStatuses (Ljava/util/Map;)V
+accessible field net/minecraft/client/gui/components/debug/DebugScreenEntryList profile Lnet/minecraft/client/gui/components/debug/DebugScreenProfile;
+accessible field net/minecraft/client/gui/components/debug/DebugScreenEntryList LOGGER Lorg/slf4j/Logger;

@@ -1,0 +1,15 @@
+{
+  "debug.entry.mode": "Show",
+  "debug.entry.overlay": "In F3",
+  "debug.entry.never": "Never",
+  "debug.entry.left": "Left",
+  "debug.entry.auto": "Auto",
+  "debug.entry.right": "Right",
+  "debug.entry.side": "Side",
+  "debug.entry.gap": "Gap",
+  "debug.entry.gap.none": "No Gap",
+  "debug.entry.gap.above": "Gap Above",
+  "debug.entry.gap.below": "Gap Below",
+  "debug.entry.move.up": "Move Up",
+  "debug.entry.move.down": "Move Down"
+}

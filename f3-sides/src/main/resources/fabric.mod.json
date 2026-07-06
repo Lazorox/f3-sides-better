@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "f3-sides",
+  "version": "${version}",
+  "name": "f3-sides",
+  "description": "Allows choosing which side of the F3 screen debug entries appear on",
+  "authors": [
+    {
+      "name": "droc101"
+    }
+  ],
+  "contact": {
+    "homepage": "https://github.com/droc101/f3-sides",
+    "issues": "https://github.com/droc101/f3-sides/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/f3-sides/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "f3-sides.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "accessWidener": "f3sides.accesswidener"
+}
