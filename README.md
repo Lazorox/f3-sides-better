@@ -8,3 +8,5 @@ I added:
   1) Simple Order: when adding a new debug entry it will be added below what is already active
   2) Gap between debug entries: you can add a Gap( a small space ) above or below a debug entry to make it better
   3) Move: you can move debug entries up or down ( If an entry is more that a row you have to click it more to move it )
+
+you can find the mod file under build/libs and then f3-sides-1.1+26.2.jar
